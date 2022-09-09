@@ -1,4 +1,4 @@
-﻿namespace TestDateFormat;
+﻿namespace Library;
 
 /// <summary>
 /// El programa principal.
@@ -12,5 +12,8 @@ public static class Program
     {
         string testDate = "10/11/1997";
         Console.WriteLine($"{testDate} se convierte a {DateFormatter.ChangeFormat(testDate)}");
+
+        string testDate2 = "";
+        Console.WriteLine($"{testDate2} se convierte a {DateFormatter.ChangeFormat(testDate2)}");
     }
 }
